@@ -1,0 +1,59 @@
+* {
+  box-sizing: 0;
+  margin: 0;
+  padding: 0;
+}
+
+.twett-logo {
+  width: 50px;
+}
+.left-side {
+  padding: 1rem 3rem;
+  border: 1px solid rgb(231, 215, 215);
+  background-color: #fff;
+}
+.left-side-list {
+  display: grid;
+  gap: 1rem;
+}
+
+.left-side-list a {
+  text-decoration: none;
+  color: rgb(88, 76, 76);
+  font-size: 1.2rem;
+}
+.left-side-list li {
+  list-style: none;
+}
+.tweet-btn {
+  font-size: 20px;
+  font-weight: 500;
+  border-radius: 25px;
+  border: none;
+  background-color: #1d9bf0;
+  padding: 0.5rem 3rem;
+  color: #fff;
+}
+/* .twitter-h1 {
+  align-content: center;
+  color: red;
+  font-size: 30px;
+}
+
+
+.flower-list {
+  display: grid;
+  grid-template-rows: repeat(auto-fit, 300px);
+  justify-content: center;
+  grid-gap: 2rem;
+}
+.flower-list {
+  display: grid;
+  grid-template-rows: 1fr auto;
+  grid-row-gap: 2rem;
+  height: 100%;
+  padding: 2rem;
+  place-items: center;
+  background-color: var(--white);
+  border: 1px solid var(--grey);
+} */
