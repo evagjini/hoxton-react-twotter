@@ -1,0 +1,40 @@
+{
+  "tweet": [
+    {
+      "created_at": "Thu Apr 06 15:24:15 +0000 2017",
+      "id": 2244994945,
+      "text": "Today were sharing our vision for the future of the Twitter API platform!",
+      "user": "Eva",
+      "name": "Avatar",
+      "url": "https://upload.wikimedia.org/wikipedia/en/f/fb/Katara.png",
+      "description": " I own the Power of water. It's magical even though I don't know how to smim :)"
+    },
+    {
+      "created_at": "Thu Apr 06 15:24:15 +0000 2017",
+      "id": 2244994945,
+      "user": "Mandii",
+      "text": "“It's not always about being number one. It's about dueling with bravery, honor, and respect! And most importantly, putting the needs of others ahead of your own!”",
+      "name": "Yogio",
+      "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7PCL-AzcABELoOzVVi22rJzOL-PxY4mRHmA&usqp=CAU",
+      "description": " It's timeee for Duel"
+    },
+    {
+      "created_at": "Thu Apr 06 15:24:15 +0000 2017",
+      "id": 2244994945,
+      "text": "Today were sharing our vision for the future of the Twitter API platform!",
+      "user": "Eva",  
+      "name": "Avatar",
+      "url": "https://upload.wikimedia.org/wikipedia/en/f/fb/Katara.png",
+      "description": " I own the Power of water. It's magical even though I don't know how to smim :)"
+    },
+    {
+      "created_at": "Thu Apr 06 15:24:15 +0000 2017",
+      "id": 2244994945,
+      "text": "“It's not always about being number one. It's about dueling with bravery, honor, and respect! And most importantly, putting the needs of others ahead of your own!”",
+      "user": "Mandii",
+      "name": "Yogio",
+      "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7PCL-AzcABELoOzVVi22rJzOL-PxY4mRHmA&usqp=CAU",
+      "description": " It's timeee for Duel"
+    }
+  ]
+}

@@ -1,20 +1,40 @@
 
+import { useEffect, useState } from 'react'
 import './App.css'
 import { LeftSideBar } from './components/LeftSideBar'
 
+type Tweet = {
+  created_at: string
+  id: number
+  text: string
+  name: string
+  url: string
+  desription: string
 
+}
 
 
 
 
 function App() {
+  const [tweets, getTweets] = useState<Tweet[]>([])
 
+  useEffect(() => {
+    fetch('http://localhost:3005/tweet')
+      .then(resp => resp.json())
+      .then(tweetsFromServer => getTweets(tweetsFromServer))
+    console.log(tweets)
+
+  }, [])
 
 
   return (
     <div className="App">
 
       <LeftSideBar />
+      < div className='main'>
+
+      </div>
 
 
     </div >
