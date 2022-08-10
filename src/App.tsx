@@ -1,7 +1,9 @@
 
 import { useEffect, useState } from 'react'
 import './App.css'
+import { AddNewTweet } from './components/addNewTweet'
 import { LeftSideBar } from './components/LeftSideBar'
+
 
 
 type Tweet = {
@@ -33,7 +35,7 @@ function App() {
 
 
       <LeftSideBar />
-
+      <AddNewTweet />
 
 
 
