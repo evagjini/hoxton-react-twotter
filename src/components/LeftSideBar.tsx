@@ -52,9 +52,18 @@ export function LeftSideBar() {
                         <a href="#">
                             < CgMoreO />  More </a>
                     </li>
+
                     <li>
                         <button className='tweet-btn'> Tweet</button>
                     </li>
+                    < div className='account-tag'>
+                        <img className="profile-image"
+                            src="https://www.scotsman.com/webimg/b25lY21zOmE5NTI3YzIwLTM1OWItNDk5OC04Zjg2LTQ1ZmFlY2FlZGI1ODo3OWQ0ZTliNC01YTk3LTRmNDEtOWZjMy0xMDFjOGFmN2FjOWI=.jpg?width=640&quality=65&smart&enable=upscale" />
+                        <div className='left-side-profile'>
+                            <h2 className='profile-name'>Eva </h2>
+                            <h3 className='user-handle'>@Eva</h3>
+                        </div>
+                    </div>
 
 
                 </ul>

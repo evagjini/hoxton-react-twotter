@@ -3,6 +3,12 @@
   margin: 0;
   padding: 0;
 }
+.App {
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  margin: 2rem;
+  gap: 1rem;
+}
 
 .twett-logo {
   width: 50px;
@@ -34,6 +40,27 @@
   padding: 0.5rem 3rem;
   color: #fff;
 }
+.profile-image {
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+}
+.account-tag {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 2rem 2rem 2rem;
+  border: 1 px solid black;
+}
+.profile-name {
+  font-size: 1.5 rem;
+  font-weight: 700;
+  color: #51565a;
+}
+.user-handle {
+  color: rgb(122, 114, 114);
+  font-size: 1rem;
+}
+
 /* .twitter-h1 {
   align-content: center;
   color: red;

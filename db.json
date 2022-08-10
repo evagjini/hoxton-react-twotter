@@ -1,40 +1,55 @@
 {
-  "tweet": [
+  "tweets": [
     {
       "created_at": "Thu Apr 06 15:24:15 +0000 2017",
       "id": 2244994945,
       "text": "Today were sharing our vision for the future of the Twitter API platform!",
-      "user": "Eva",
-      "name": "Avatar",
-      "url": "https://upload.wikimedia.org/wikipedia/en/f/fb/Katara.png",
-      "description": " I own the Power of water. It's magical even though I don't know how to smim :)"
-    },
-    {
-      "created_at": "Thu Apr 06 15:24:15 +0000 2017",
-      "id": 2244994945,
-      "user": "Mandii",
-      "text": "“It's not always about being number one. It's about dueling with bravery, honor, and respect! And most importantly, putting the needs of others ahead of your own!”",
-      "name": "Yogio",
-      "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7PCL-AzcABELoOzVVi22rJzOL-PxY4mRHmA&usqp=CAU",
-      "description": " It's timeee for Duel"
-    },
-    {
-      "created_at": "Thu Apr 06 15:24:15 +0000 2017",
-      "id": 2244994945,
-      "text": "Today were sharing our vision for the future of the Twitter API platform!",
-      "user": "Eva",  
-      "name": "Avatar",
-      "url": "https://upload.wikimedia.org/wikipedia/en/f/fb/Katara.png",
-      "description": " I own the Power of water. It's magical even though I don't know how to smim :)"
+      "user": {
+        "name":"Eva",
+      "userHandle": "@Avatar",
+      "profileImage":"https://www.scotsman.com/webimg/b25lY21zOmE5NTI3YzIwLTM1OWItNDk5OC04Zjg2LTQ1ZmFlY2FlZGI1ODo3OWQ0ZTliNC01YTk3LTRmNDEtOWZjMy0xMDFjOGFmN2FjOWI=.jpg?width=640&quality=65&smart&enable=upscale"
+      },
+      "image": "https://upload.wikimedia.org/wikipedia/en/f/fb/Katara.png"
+    
     },
     {
       "created_at": "Thu Apr 06 15:24:15 +0000 2017",
       "id": 2244994945,
       "text": "“It's not always about being number one. It's about dueling with bravery, honor, and respect! And most importantly, putting the needs of others ahead of your own!”",
-      "user": "Mandii",
-      "name": "Yogio",
-      "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7PCL-AzcABELoOzVVi22rJzOL-PxY4mRHmA&usqp=CAU",
-      "description": " It's timeee for Duel"
+       
+      "user":{
+       "name":"Mandii",
+       "userHandle": "@Yogio",
+       "profileImage":"https://www.scotsman.com/webimg/b25lY21zOmE5NTI3YzIwLTM1OWItNDk5OC04Zjg2LTQ1ZmFlY2FlZGI1ODo3OWQ0ZTliNC01YTk3LTRmNDEtOWZjMy0xMDFjOGFmN2FjOWI=.jpg?width=640&quality=65&smart&enable=upscale"
+      },
+      "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7PCL-AzcABELoOzVVi22rJzOL-PxY4mRHmA&usqp=CAU" 
+      
+    } ,
+   
+    {
+      "created_at": "Thu Apr 06 15:24:15 +0000 2017",
+      "id": 2244994945,
+      "text": "Today were sharing our vision for the future of the Twitter API platform!",
+      "user": {
+        "name":"Eva",  
+      "userHandle": "@Avatar",
+      "profileImage":"https://www.scotsman.com/webimg/b25lY21zOmE5NTI3YzIwLTM1OWItNDk5OC04Zjg2LTQ1ZmFlY2FlZGI1ODo3OWQ0ZTliNC01YTk3LTRmNDEtOWZjMy0xMDFjOGFmN2FjOWI=.jpg?width=640&quality=65&smart&enable=upscale"
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/en/f/fb/Katara.png"
+      
+    },
+    {
+      "created_at": "Thu Apr 06 15:24:15 +0000 2017",
+      "id": 2244994945,
+      "text": "“It's not always about being number one. It's about dueling with bravery, honor, and respect! And most importantly, putting the needs of others ahead of your own!”",
+      "user":{
+      "name": "Mandii",
+      "userHandle": "@Yogio",
+      "profileImage":"https://www.scotsman.com/webimg/b25lY21zOmE5NTI3YzIwLTM1OWItNDk5OC04Zjg2LTQ1ZmFlY2FlZGI1ODo3OWQ0ZTliNC01YTk3LTRmNDEtOWZjMy0xMDFjOGFmN2FjOWI=.jpg?width=640&quality=65&smart&enable=upscale"
+      
+      },
+      "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7PCL-AzcABELoOzVVi22rJzOL-PxY4mRHmA&usqp=CAU"
+      
     }
   ]
 }
