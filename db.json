@@ -6,10 +6,11 @@
       "text": "Today were sharing our vision for the future of the Twitter API platform!",
       "user": {
         "name":"Eva",
-      "userHandle": "@Avatar",
+      "userHandle": "@Eva",
       "profileImage":"https://www.scotsman.com/webimg/b25lY21zOmE5NTI3YzIwLTM1OWItNDk5OC04Zjg2LTQ1ZmFlY2FlZGI1ODo3OWQ0ZTliNC01YTk3LTRmNDEtOWZjMy0xMDFjOGFmN2FjOWI=.jpg?width=640&quality=65&smart&enable=upscale"
       },
-      "image": "https://upload.wikimedia.org/wikipedia/en/f/fb/Katara.png"
+      "image": "https://upload.wikimedia.org/wikipedia/en/f/fb/Katara.png",
+      "likes": 5
     
     },
     {
@@ -22,7 +23,8 @@
        "userHandle": "@Yogio",
        "profileImage":"https://www.scotsman.com/webimg/b25lY21zOmE5NTI3YzIwLTM1OWItNDk5OC04Zjg2LTQ1ZmFlY2FlZGI1ODo3OWQ0ZTliNC01YTk3LTRmNDEtOWZjMy0xMDFjOGFmN2FjOWI=.jpg?width=640&quality=65&smart&enable=upscale"
       },
-      "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7PCL-AzcABELoOzVVi22rJzOL-PxY4mRHmA&usqp=CAU" 
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7PCL-AzcABELoOzVVi22rJzOL-PxY4mRHmA&usqp=CAU" ,
+      "likes":8
       
     } ,
    
@@ -32,10 +34,11 @@
       "text": "Today were sharing our vision for the future of the Twitter API platform!",
       "user": {
         "name":"Eva",  
-      "userHandle": "@Avatar",
+      "userHandle": "@Eva",
       "profileImage":"https://www.scotsman.com/webimg/b25lY21zOmE5NTI3YzIwLTM1OWItNDk5OC04Zjg2LTQ1ZmFlY2FlZGI1ODo3OWQ0ZTliNC01YTk3LTRmNDEtOWZjMy0xMDFjOGFmN2FjOWI=.jpg?width=640&quality=65&smart&enable=upscale"
       },
-      "url": "https://upload.wikimedia.org/wikipedia/en/f/fb/Katara.png"
+      "image": "https://upload.wikimedia.org/wikipedia/en/f/fb/Katara.png",
+      "likes": 10
       
     },
     {
@@ -48,7 +51,8 @@
       "profileImage":"https://www.scotsman.com/webimg/b25lY21zOmE5NTI3YzIwLTM1OWItNDk5OC04Zjg2LTQ1ZmFlY2FlZGI1ODo3OWQ0ZTliNC01YTk3LTRmNDEtOWZjMy0xMDFjOGFmN2FjOWI=.jpg?width=640&quality=65&smart&enable=upscale"
       
       },
-      "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7PCL-AzcABELoOzVVi22rJzOL-PxY4mRHmA&usqp=CAU"
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7PCL-AzcABELoOzVVi22rJzOL-PxY4mRHmA&usqp=CAU",
+      "likes":12
       
     }
   ]

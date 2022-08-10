@@ -16,8 +16,8 @@
 .left-side {
   padding: 1rem 3rem;
   border: 1px solid rgb(231, 215, 215);
-  background-color: #fff;
 }
+
 .left-side-list {
   display: grid;
   gap: 1rem;
@@ -27,6 +27,16 @@
   text-decoration: none;
   color: rgb(88, 76, 76);
   font-size: 1.2rem;
+}
+
+.left-side-list li {
+  border: none;
+  transition: all;
+  transition-duration: 200;
+}
+.left-side-list li :hover {
+  border-radius: 200px;
+  background-color: #9bd0f3;
 }
 .left-side-list li {
   list-style: none;
@@ -57,10 +67,27 @@
   color: #51565a;
 }
 .user-handle {
-  color: rgb(122, 114, 114);
+  color: rgb(242, 236, 236);
   font-size: 1rem;
 }
-
+.tweet {
+  display: grid;
+  margin: 2rem;
+  padding-left: 15px;
+  border: 1px solid rgb(233, 224, 224);
+  position: relative;
+  background-color: #fff;
+}
+.user-info {
+  align-content: center;
+}
+.avatar {
+  object-fit: cover;
+}
+.likes-button {
+  border: none;
+  background-color: #fff;
+}
 /* .twitter-h1 {
   align-content: center;
   color: red;
