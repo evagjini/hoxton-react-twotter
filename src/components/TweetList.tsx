@@ -13,22 +13,19 @@ export type Tweet = {
     likes: number;
 };
 
-
 export function TweetList() {
     const [tweets, setTweets] = useState<Tweet[]>([]);
 
     useEffect(() => {
-        fetch('http://localhost:3005/tweets')
+        fetch("http://localhost:3005/tweets")
             .then((resp) => resp.json())
             .then((tweetsFromServer) => setTweets(tweetsFromServer));
     }, []);
     return (
         <div className="tweet">
-            <ul>
-                {tweets.map((tweet) => (
-                    <SingleTweet key={tweet.id} tweet={tweet} />
-                ))}
-            </ul>
+            {tweets.map((tweet) => (
+                <SingleTweet key={tweet.id} tweet={tweet} />
+            ))}
         </div>
     );
 }

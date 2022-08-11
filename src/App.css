@@ -15,7 +15,7 @@
 }
 .left-side {
   padding: 1rem 3rem;
-  border: 1px solid rgb(231, 215, 215);
+  /* border-right: 1px solid rgb(231, 215, 215); */
 }
 
 .left-side-list {
@@ -56,8 +56,8 @@
   height: 50px;
 }
 .account-tag {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
+  /* display: grid; */
+  /* grid-template-columns: 1fr 1fr; */
   margin: 2rem 2rem 2rem;
   border: 1 px solid black;
 }
@@ -74,9 +74,9 @@
   display: grid;
   margin: 2rem;
   padding-left: 15px;
-  border: 1px solid rgb(233, 224, 224);
-  position: relative;
+  /* position: relative; */
   background-color: #fff;
+  /* height: 300px; */
 }
 .user-info {
   align-content: center;
@@ -87,6 +87,30 @@
 .likes-button {
   border: none;
   background-color: #fff;
+}
+.tweets {
+  border: 1px solid rgb(206, 197, 197);
+  list-style: none;
+  margin: 1rem;
+}
+.tweetbox-input {
+  display: grid;
+  /* grid-auto-flow: column; */
+  position: relative;
+  justify-content: center;
+  min-width: fit-content;
+}
+
+.feed-header {
+  top: 0;
+  position: sticky;
+  z-index: 100;
+  padding: 15px 20px;
+}
+.tweetbox {
+  padding-bottom: 10px;
+  border-bottom: 8px solid gray;
+  padding-right: 10px;
 }
 /* .twitter-h1 {
   align-content: center;
